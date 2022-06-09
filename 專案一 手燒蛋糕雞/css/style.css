@@ -1,0 +1,113 @@
+/* 版面 */
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+body{
+  font-family: ‘cwTeXFangSong’, serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.4s all linear;
+}
+
+/* header */
+.headerstyle{
+    box-shadow: 10px 1rem 1rem rgba(0, 0, 0, 0.459);
+}
+.bg-dark{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8841737378545168) 27%, rgba(218,125,65,0.8869748583026961) 56%, rgba(255,134,0,1) 100%); 
+}
+
+.logo-p:hover{background-color: rgb(201, 100, 41);
+padding: 3px;
+border-top-left-radius: 15px ;
+border-top-right-radius: 15px ;
+border-bottom-left-radius: 15px ;
+border-bottom-right-radius: 15px ;
+}
+
+
+.nav-item>a:hover{background-color: rgba(0, 0, 0, 0.534);
+padding: 3px;
+border-top-left-radius: 15px ;
+border-top-right-radius: 15px ;
+border-bottom-left-radius: 15px ;
+border-bottom-right-radius: 15px ;
+font-size: 20px;
+color: rgb(0, 0, 0);
+}
+ /* main  */
+.main-p:hover{
+    border-top-left-radius: 50px ;
+    border-top-right-radius: 50px ;
+    border-bottom-left-radius: 50px ;
+    border-bottom-right-radius: 50px ;
+    background: rgb(175,171,166);
+    background: linear-gradient(90deg, rgba(175,171,166,0) 0%, rgba(224,146,57,1) 100%); 
+color: rgb(0, 0, 0);
+padding: 50px;
+}
+.mainimg:hover{
+    opacity: 0.7;
+}
+
+.btn{
+   
+    border: 3px;
+    padding: 10px solid rgb(196, 82, 37); 
+    color: rgba(134, 134, 69, 0.644);
+    border-top-left-radius: 15px ;
+border-top-right-radius: 15px ;
+border-bottom-left-radius: 15px ;
+border-bottom-right-radius: 15px ;
+}
+.btn:hover{
+   background-color: rgba(5, 5, 5, 0.082);
+    color: white;
+    box-shadow: inset 200px 0 0 0 orange;
+    transition: 1.2s;
+    padding: 25px;
+    
+}
+
+.top{
+    background-color: black;
+    
+    
+}
+
+
+/* 料理  */
+.food-p{
+    color: orangered;
+    font-size:40px;
+    background-color: black;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+    margin-bottom: 5px;
+}
+
+.food-p:hover{
+background-color: orangered;
+color: black;
+}
+
+/* 菜單  */
+
+
+ /* 評論  */
+
+
+ /* 訂購 */
+
+
+
+ /* footer  */
+
+
+
+ /* rwd */
